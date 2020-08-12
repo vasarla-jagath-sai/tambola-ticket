@@ -94,7 +94,6 @@ function cuter(gotid){
         document.getElementById(gotid).style.color="red";
         jaldi+=1
     
-    console.log(document.getElementById(gotid).style.textDecoration=="line-through")
     if(gotid[3]==0 && document.getElementById(gotid).value!=" " && document.getElementById(gotid).style.textDecoration=="line-through"){
         frow+=1
     }
@@ -136,5 +135,5 @@ function cuter(gotid){
         },3000)
         
     }
-    console.log(frow+" "+srow+" "+trow)
+    
 }
